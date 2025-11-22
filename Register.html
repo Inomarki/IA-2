@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="SignIn.css">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8>"UTF-8>
+    </head>
+    <body class="Universe">
+        <header class="heading">
+            <h1>BӨЦGIΣ</h1>
+            <img src="../Assets/Logo-removebg-preview.png" alt="Logo" class="Logo"/> 
+        </header>
+        <div class="SignUpForm">
+            <h2>Log In</h2>
+              <form class="Groupedform">
+                <div class="Username">
+                   <label>Username</label><br>
+                   <input type="text" placeholder="Create Username" id="LogInUsername">
+                 </div>
+                <div class="Password">
+                   <label>Password</label><br>
+                   <input type="text" placeholder="Create password" id="LogInPassword">
+                </div>
+              </form>
+              <div class="SignButton">
+                <button type="submit" onclick="LogIn()">Log into Account</button>
+              </div>
+        </div>
+        <div class="SignIn">
+            <p>Don't Have an account?</p>
+            <a href="SignUp.html">
+                <button type="submit">Sign Up</button>
+            </a>
+        </div>
+        <script src="JS/Login.js"></script>
+    </body>
+</html>
