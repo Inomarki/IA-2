@@ -1,0 +1,55 @@
+<!--Mark Palmer||2408091-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="cart.css">
+        <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8>"UTF-8>
+    </head>
+    <body class="main">
+        <header class="header">
+            <div class="LogoArea">
+                 <img src="../Assets/Logo-removebg-preview.png" alt="Logo" class="Logo"/>
+                 <h1>BӨЦGIΣ</h1>
+            </div> 
+            <nav class="Regions">
+                <select>
+                    <option>US/Canada</option>
+                    <option>South America</option>
+                    <option>Europe</option>
+                    <option>North Asia</option>
+                    <option>South Asia</option>
+                    <option>Australia</option>
+                    <option>South Africa</option>
+                </select>
+            </nav>
+            <nav class="Sections">
+                <select>
+                    <option>Mens' Clothing</option>
+                    <option>Womens' Clothing</option>
+                    <option>Mens' Accessories</option>
+                    <option>Womens' Accessories</option>
+                    <option>Purses and designer bags</option>
+                    <option>Mens' footwear</option>
+                    <option>Womens' footwear</option>
+                </select>
+            </nav>
+            <div class="Searchbar">
+                <input type="text" placeholder="Search products...">
+            </div>
+            <nav class="aboutus">
+                <a href="#about-section">About Us</a>
+            </nav>
+            <div class="cart">
+                <a href="ShoppingPage.html">
+                  <p>Return Home</p>
+                </a>
+            </div>
+        </header>
+        <div class="cart-summary">
+                 <h2>Total: $<span id="cart-total">0</span></h2>
+                 <button class="checkout-btn" onclick="checkout()">Cash Out</button>
+            </div>
+        <script src="cart.js"></script>
+    </body>
+</html>
